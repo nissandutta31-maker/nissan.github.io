@@ -10,7 +10,7 @@ window.SITE = {
   name: "Nissan Dutta",
 
   // One line. Plain language, no job-title soup.
-  tagline: "Student. Building small things and writing about them.",
+  tagline: "I build evaluations and tools for language models, and the infrastructure they run on.",
 
   // Split so scrapers have to work for it. Joined back together in the page.
   email: ["nissandutta31", "gmail.com"],
@@ -28,53 +28,33 @@ window.SITE = {
   work: [
     {
       year: "2026",
-      title: "Project name",
-      note: "What it does, in one line. What you actually built, not what it aspires to be.",
-      href: "",
+      title: "Kubernetes runtime demo",
+      note: "A Go microservice packaged into a minimal container and deployed to Kubernetes from manifests, with health probes and a Python script that checks cluster state.",
+      href: "https://github.com/nissandutta31-maker/Kubernetes",
     },
     {
-      year: "2025",
-      title: "Another project",
-      note: "The problem it solved and the part that was hard.",
-      href: "",
+      year: "2026",
+      title: "BanglaBench",
+      note: "A leaderboard for how language models handle Bengali, scored directly in Bengali instead of through translation. The first version runs Belebele reading comprehension across GPT, Claude, DeepSeek and Llama.",
+      href: "https://github.com/nissandutta31-maker/bangla-bench",
     },
     {
-      year: "2025",
-      title: "Something smaller",
-      note: "A weekend build, a script, a thing you made for yourself.",
-      href: "",
+      year: "2026",
+      title: "DeepSeek cloud proxy",
+      note: "A small FastAPI service that puts an OpenAI-compatible endpoint in front of DeepSeek, so editors like Cursor and Cline can use it as a custom model.",
+      href: "https://github.com/nissandutta31-maker/deepseek-cloud-proxy",
     },
   ],
 
   // What you're working toward. No dates — these are intentions, not history.
-  now: [
-    {
-      title: "Learning something specific",
-      note: "Name the thing and why it matters to you.",
-    },
-    {
-      title: "Building the next project",
-      note: "One sentence on what it is and where it stands.",
-    },
-    {
-      title: "An open question",
-      note: "Something you want to understand better this year.",
-    },
-  ],
+  // Empty for now, so the section is hidden. Add entries like:
+  //   { title: "Learning something specific", note: "Why it matters to you." },
+  now: [],
 
-  education: [
-    {
-      year: "2024—",
-      title: "Your degree, your institution",
-      note: "Coursework or focus worth naming.",
-    },
-    {
-      year: "2024",
-      title: "School or program",
-      note: "",
-    },
-  ],
+  // Empty for now, so the section is hidden. Add entries like:
+  //   { year: "2024—", title: "Degree, institution", note: "Focus worth naming." },
+  education: [],
 
   // Plain list. Only what you'd be happy to be asked about.
-  skills: ["Python", "JavaScript", "HTML & CSS", "Git", "SQL", "Writing"],
+  skills: ["Python", "Go", "Docker", "Kubernetes", "FastAPI", "LLM evaluation"],
 };

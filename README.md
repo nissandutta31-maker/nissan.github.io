@@ -1,8 +1,8 @@
-# nissan.github.io
+# nissandutta31-maker.github.io
 
 My personal site. One page, no build step, no dependencies.
 
-**Live:** https://nissandutta31-maker.github.io/nissan.github.io/
+**Live:** https://nissandutta31-maker.github.io/
 
 ## Updating it
 
